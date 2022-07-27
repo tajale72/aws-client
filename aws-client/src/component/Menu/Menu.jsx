@@ -1,4 +1,6 @@
 import Navbar from '../Navbar/Navbar'
+import './Menu.css';
+
 
 function Menu() {
     return (

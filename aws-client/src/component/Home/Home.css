@@ -1,0 +1,8 @@
+.home {
+    flex-grow: 1;
+    background: url('./bakery.jpeg')  no-repeat center fixed ;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    flex-direction: column;
+}
