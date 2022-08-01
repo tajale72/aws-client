@@ -1,8 +1,8 @@
-import './Register.css';
+import './LoginRegister.css';
 import { FormControl, Input,InputLabel} from '@mui/material';
 
 
-function Register() {
+function LoginRegister() {
     return (
         <div className="formcontrol">
             <div>
@@ -24,4 +24,4 @@ function Register() {
     )
 }
 
-export default Register
+export default LoginRegister

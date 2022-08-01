@@ -1,0 +1,7 @@
+.navbar {
+    flex-grow: 1;
+    background: url('../images/3.jpg')  no-repeat center fixed ;
+    width: 100%;
+    background-size: cover;
+    flex-direction: column;
+}

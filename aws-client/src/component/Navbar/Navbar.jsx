@@ -9,6 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import { styled, alpha } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
+import './Navbar.css';
 
 
 
@@ -55,7 +56,8 @@ const Search = styled('div')(({ theme }) => ({
 
 function Navbar() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <div className="navbar">
+       <Box sx={{ flexGrow: 1 }}>
       <AppBar id="appbar" position="static" color="transparent">
         <Toolbar>
           <IconButton
@@ -88,6 +90,8 @@ function Navbar() {
         </Toolbar>
       </AppBar>
     </Box>
+    </div>
+   
   );
 }
 
